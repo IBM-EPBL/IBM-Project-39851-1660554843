@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    
+    <title>login page</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/Lr.css') }}" media="screen">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/Login.css') }}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ url_for('static',filename='js/jquerylr.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static',filename='js/Lr.js') }}" defer=""></script>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "dress"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Page 1">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-b7b7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "03613269-cebb-415d-9c93-124741457ce1", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "43cde6bc-c030-427e-b5d7-f895b40d1c8c", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container"></div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-1"><li class="u-nav-item">
+</li>
+</ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-container-align-center u-image u-section-1" id="sec-ff65" data-image-width="740" data-image-height="493">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">login page<span style="font-size: 4.5rem;">
+            <span style="font-weight: 700;">
+              <span style="font-weight: 400;">
+                <span style="font-weight: 700;"></span>
+              </span>
+            </span>
+          </span>
+        </h1>
+        <div class="u-form u-form-1">
+          <form action="\login" method='POST' name=form>
+            <div class="u-form-group u-form-name">
+              <label for="name-bd10" class="u-label">UserName</label>
+              <input type="text" placeholder="Enter your Name"  name="username" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-group u-form-name">
+              <label for="name-bd10" class="u-label">Password</label>
+              <input type="text" placeholder="Enter your Name"  name="password" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-align-left u-form-group u-form-submit">
+              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-palette-2-base u-radius-17 u-btn-1">Submit</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
+            </div>
+			<a href="{{ url_for('registerpage') }}">for new registeration click the hear</a>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+</body></html>
